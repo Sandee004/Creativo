@@ -1,9 +1,12 @@
 {
+  "homepage": "https://sandee004.github.io/Creativo/",
   "name": "nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages",
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
