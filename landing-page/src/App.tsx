@@ -11,7 +11,7 @@ function App() {
       <Portfolio />
       <Collab />
     </>
-  );
+  )
 }
 
 export default App;
