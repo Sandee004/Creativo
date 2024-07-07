@@ -7,7 +7,7 @@ import gridImg6 from '../images/gridImg6.png';
 
 const Portfolio = () => {
   return (
-    <div className="flex flex-col sm:flex-row mx-5 justify-between">
+    <div className="flex flex-col sm:flex-row mx-5 py-5 justify-between">
         <div className="sm:w-1/5 text-sm">
             <p className="font-bold">Our Portfolio</p>
         </div>
