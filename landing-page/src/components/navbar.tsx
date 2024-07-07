@@ -33,15 +33,9 @@ const Navbar = () => {
             {showNav && (
                 <div className="sm:hidden flex flex-col w-[100%] border-b-2 border-gray-300 text-center py-6 justify-center">
                     <p className="py-2 w-[100%] hover:font-bold">Home</p>
-                    <p className="py-2 w-[100%] hover:font-bold">
-                        About Us
-                    </p>
-                    <p className="py-2 w-[100%] hover:font-bold">
-                        Portfolio
-                    </p>
-                    <button className="py-2 w-[100%] hover:font-bold">
-                        Get In Touch
-                    </button>
+                    <p className="py-2 w-[100%] hover:font-bold">About Us</p>
+                    <p className="py-2 w-[100%] hover:font-bold">Portfolio</p>
+                    <button className="py-2 w-[100%] hover:font-bold">Get In Touch</button>
                 </div>
             )}
         </>
