@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion'; // for animation
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa'; // Font Awesome icons
+import { useState } from 'react';
 
-const Accordion = ({title, answer}) => {
+interface AccordionProps {
+  title: string;
+  answer: string;
+}
+const Accordion = ({title, answer}: AccordionProps) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
   return (
     <div className="w-[90%] mx-auto py-2">
